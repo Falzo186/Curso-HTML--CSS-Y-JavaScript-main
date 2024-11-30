@@ -1,0 +1,43 @@
+/* Cambiar el color de fondo y texto de la sección */
+#nueva-seccion {
+    background-color: #f0f8ff;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilizar la lista ordenada */
+ol {
+    font-family: 'Georgia', serif;
+    color: #555;
+    margin: 20px;
+    padding: 10px;
+    list-style-type: decimal-leading-zero;
+}
+
+/* Imagen estilizada */
+.imagen-estilizada {
+    width: 300px;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para los enlaces */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #6c757d;
+}
